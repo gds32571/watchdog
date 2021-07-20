@@ -11,7 +11,7 @@ Shell script that starts everything on the watchdog computer.  It uses the follo
 
 ### bcast-recv
 
-The program bcast-recv listens for UDP broadcasts to port 12345 (or port 12344) from deadman clients.  They are needing the watchdog server hostname. This program responds with a UDP packet back to the querying comuter with that name.  The watchdog progran can run on different computers, it just listens on a different port.
+The program bcast-recv listens for UDP broadcasts to port 12345 (or port 12344) from deadman clients.  They require the watchdog server hostname so they know who to ask the port question. This program responds with a UDP packet back to the querying comuter with that name.  The watchdog progran can run on different computers, it just listens on a different port.
 
 ### zerowd.py
 
