@@ -24,7 +24,6 @@ def checkin(port):
     # create a socket object
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     host = 'amd1'
-#    port = 3002
 
     try:
        s.connect((host, port))
